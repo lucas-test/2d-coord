@@ -1,0 +1,23 @@
+{
+  "name": "2d-coord",
+  "version": "1.0.0",
+  "description": "2d coordinates and vectors geometric functions",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-test/2d-coord.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucas-test/2d-coord/issues"
+  },
+  "homepage": "https://github.com/lucas-test/2d-coord#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

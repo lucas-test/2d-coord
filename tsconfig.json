@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "incremental": true,            /* Enable incremental compilation */
+      "target": "es6",                /* Specify ECMAScript target version: */
+      "module": "commonjs",           /* 'none', 'commonjs', 'amd', 'system', etc */
+      "declaration": true,            /* Concatenate & emit output to single file.*/
+      "outDir": "lib",                /* Redirect output to the directory. */
+      "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
+      "skipLibCheck": true,           /* Skip type checking of declaration files. */
+      "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
+    },
+    "include": [
+      "src"
+    ],
+    "formatOptions": {
+        "tabSize": 2,
+        "indentSize": 2,
+        "useTabs": false,
+        "newLine": "LF",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+        "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceBeforeFunctionParenthesis": true,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false,
+        "semicolons": "always"
+      }
+  }

@@ -75,6 +75,14 @@ export class Coord {
         this.y += shift.y;
     }
 
+    /**
+     * `this += shift * factor`
+     */
+    translateF(shift: Vect, factor: number) {
+        this.x += shift.x*factor;
+        this.y += shift.y*factor;
+    }
+
     rtranslate(shift: Vect) {
         this.x -= shift.x;
         this.y -= shift.y;

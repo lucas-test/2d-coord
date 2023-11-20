@@ -31,6 +31,9 @@ export class Vect {
         this.y = other.y;
     }
 
+    /**
+     * `this += v;` where `v` is another Vect.
+     */
     translate(v: Vect) {
         this.x += v.x;
         this.y += v.y;
@@ -45,8 +48,6 @@ export class Vect {
 
     /**
      * Returns a Vect from `src` to `dest`.
-     * @param src 
-     * @param dest 
      */
     static fromCoords(src: Coord, dest: Coord): Vect {
         return new Vect(dest.x - src.x, dest.y - src.y);
@@ -68,5 +69,13 @@ export class Vect {
         const b = Math.sin(angle)*this.x + Math.cos(angle)*this.y;
         this.x = a;
         this.y = b;
+    }
+
+    /**
+     * `this *= r;` where r is a number
+     */
+    scale(r: number){
+        this.x *= r;
+        this.y *= r;
     }
 }
